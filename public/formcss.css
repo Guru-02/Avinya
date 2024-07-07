@@ -1,0 +1,55 @@
+:root{
+  --primary-text-color:#183b56;
+  --secondary-text-color:#577592;
+  --accent-color:#2294ed;
+  --accent-color-dark:#1d69a3;
+  --padding-inline-section:20px
+}
+
+
+
+.button-animate{
+  background-color: var(--accent-color);
+}
+
+.button-animate:hover{
+  background-color: var(--accent-color-dark);
+  color: white;
+}
+
+.form-section{
+  margin-right: 35px;
+}
+.hover-links
+{
+    color: var(--primary-text-color);
+    transform: 0.2s ease-out;
+}
+
+.hover-links:hover{
+    color: var(--accent-color);
+}
+
+
+::placeholder{
+  text-align: center;
+}
+
+.form-place{
+  flex-direction: column;
+  gap: 20px;
+}
+
+input
+{
+  width: 300px;
+  height: 25px;
+  border-radius: 4px;
+  border: 0.1px solid ;
+}
+
+#button{
+  border-radius: 10px;
+  border: none;
+  transition: 0.1s all ease;
+}
